@@ -1,0 +1,161 @@
+body {
+    background-image: url("fon.png");   
+}
+
+
+
+
+#fields {
+    margin-left: 40%;
+}
+
+
+.header-sign {
+    color: pink; 
+    margin-left: 10%;
+}
+
+
+#contact label {
+    display:block;
+    padding:5px 0;
+   }
+    
+   #contact input, #contact textarea {
+    display: block;
+    font-family: inherit;
+    font-size: 15px;
+    color: inherit;
+    padding: 14px;
+    border: 1px solid #E6E6E6;
+    margin-bottom: 30px;
+   }
+    
+   #contact textarea {
+    width: 70% !important;
+    height: 100px !important;
+    min-width: 230px;
+   }
+    
+   .input {
+    min-width: 330px;
+    background: white;
+    /* left: 40px; */
+    
+   }
+    
+   #contact input.submit {
+    background: pink;
+    color: #FFFFFF !important;
+    cursor: pointer;
+    font: inherit;
+    font-size: 16px;
+    font-weight: 600;
+    display: inline-block;
+    padding: 10px 12px;
+    text-decoration: none;
+    border: none;
+    margin: 10px 0 50px;
+    -webkit-transition: background 0.2s ease;
+    -moz-transition: background 0.2s ease;
+    -o-transition: background 0.2s ease;
+    transition: background 0.2s ease;
+    margin-left: 12%;
+   }
+    
+   .ok {
+    background: #00B5B5;
+    margin-bottom: 15px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    margin-left: 0px;
+    width: 100%;
+   }
+
+
+
+
+/* выпадающие списки */
+
+
+select {
+
+        width:300px;        /* Ширина */
+        padding:3px 5px;    /* Величина внутренних отступов: сверху/снизу, справа/слева */
+}
+    
+.row {
+    margin-bottom:15px;  
+}
+
+
+
+.select-main {
+    width: 330px;
+    border: 1px solid #ccc;
+    background-color: rgb(216, 159, 233);
+    border-radius: 25px;
+    color: white;
+}
+
+
+/* админка */
+
+
+
+.admin-input {
+    min-width: 330px;
+    background: white;
+    height: 30px;
+}
+
+
+.admin-sign {
+    color: pink; 
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+.admin-submit {
+    width: 200px;
+    height: 30px;
+    margin-left: 8%;
+    border: none;
+    cursor: pointer;
+    background: pink;
+    color: #FFFFFF !important;
+}
+
+.select-admin {
+    width: 330px;
+    border: 1px solid #ccc;
+    background-color: rgb(216, 159, 233);
+    border-radius: 25px;
+    color: white;
+}
+
+
+/* поиск */
+.all-signs {
+    display: flex;
+    align-items: center;
+    font-family: roboto;
+    font-size: large;
+    border: 1px solid yellowgreen;
+    width: 430px;
+    justify-content: center;
+    text-align: center;
+
+}
+.sign {
+    display: flex;    
+}
+
+.del-but {
+    border: none;
+    cursor: pointer;
+    background: pink;
+    color: #FFFFFF !important;
+    height: 30px;
+}
